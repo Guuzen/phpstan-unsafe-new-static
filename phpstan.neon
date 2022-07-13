@@ -1,0 +1,15 @@
+parameters:
+    level: 7
+    checkMissingIterableValueType: false
+    checkGenericClassInNonGenericObjectType: false
+    inferPrivatePropertyTypeFromConstructor: true
+
+    bootstrapFiles:
+        - phpstan-bootstrap.php
+
+
+    ignoreErrors:
+        - '#PHPDoc tag @template T for method .* is not supported#'
+
+    parallel:
+        processTimeout: 200.0
